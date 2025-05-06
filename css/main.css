@@ -1085,6 +1085,10 @@ body {
     flex-direction: column;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1131,5 +1135,19 @@ body {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 }
